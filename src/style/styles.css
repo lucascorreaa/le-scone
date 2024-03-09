@@ -88,10 +88,9 @@ main > img {
 section {
     display: flex;
     width: 1000px;
-    height: 800px;
 }
 
-.title-menu {
+.title-section {
     height: fit-content;
     display: flex;
     align-items: center;
@@ -150,4 +149,9 @@ img {
 
 img:hover {
     transform: scale(1.1);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
 }
