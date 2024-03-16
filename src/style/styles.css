@@ -242,6 +242,10 @@ footer {
     box-shadow: 0px 0px 0px 10px #2A2426;
 }
 
+footer > p {
+    color: #EDECE4;
+}
+
 @media (max-width: 520px) {
 
 
@@ -263,6 +267,50 @@ footer {
 
     .hero-wrapper :nth-child(4) {
         font-size: 100px;
+    }
+
+    section {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    menu > img {
+        display: none;
+    }
+
+    menu {
+        justify-content: center;
+        align-items: center;
+    }
+
+    body {
+        gap: 80px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    form :nth-child(3) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    map {
+        width: 80%;
+        align-self: center;
+    }
+
+    footer > img {
+        display: none;
     }
 
 }
